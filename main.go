@@ -43,6 +43,8 @@ func loc(a int, b int, v string){ //logic canculator
 		fmt.Println(a, "*", b, "=", a * b)
 	}else if v == "/"{
 		fmt.Println(a, "/", b, "=", a / b)
+	}else{
+		fmt.Println("error")
 	}
 	fmt.Println("")
 	fmt.Printf("=================================\n")
