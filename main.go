@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func main(){
-	var a, b int 
-	var v string 
+func main(){ //func main first func
+	var a, b int //create change is int
+	var v string //create change is str
 
 	fmt.Println("calculator")
 
@@ -33,7 +33,7 @@ func main(){
 
 	loc(a, b, v)
 }
-func loc(a int, b int, v string){
+func loc(a int, b int, v string){ //logic canculator
 	fmt.Println("")
 	if v == "+"{
 		fmt.Println(a, "+", b, "=", a + b)
